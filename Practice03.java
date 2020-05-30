@@ -26,3 +26,4 @@ public class Practice03 {
         System.out.println(Arrays.toString(money));
     }
 }
+//有疑问，未完成
