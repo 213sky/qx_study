@@ -1,4 +1,4 @@
-package day2020529.qx;
+package day20200529.qx;
 
 import java.util.Arrays;
 import java.util.Scanner;
