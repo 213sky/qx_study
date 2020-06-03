@@ -15,12 +15,21 @@ package day20200602;
  */
 public class Practice01 {
     public static void main(String[] args) {
-        int x = f(5);
+        int x = f(6);
         System.out.println("f(5)="+x);
     }
 
     public static int f(int n) {
-        // 請完成程式碼
-        return 0;
+        /*i  is the total number of rabits at each month combined with 2 parts, part 1, matured rabits m ready for " +
+                "reproduction and new born rabits ne */
+        int i = 1, m = 0, ne = 1;
+        for(int k = 1; k <= n; k ++){
+            int n_m = m;
+            m += ne;
+            ne = n_m;
+            i = ne + m;
+        }
+
+        return i;
     }
 }
