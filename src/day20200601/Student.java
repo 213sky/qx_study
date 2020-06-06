@@ -4,6 +4,8 @@ import java.util.Scanner;
  * 编写一个学生类，提供name,age,gnder,phone,address,email成员变量，且为每个成员变量提供setter,getter方法。
  * 为学生类提供默认的构造器和带所有成员变量的构造器。
  * 为学生类提供方法，用于描绘吃，喝，玩，睡等行为,方法内输出动作即可。
+ * 我把practice 1 里面的根据任意选项搜索功能也整合进来了，妈耶这个好难写，我要死了，怀念python。
+ * 我手机没电了，登不上微信，它老是跟我说充电口进水了不让充电，但是都一天了水还没干。
  */
 public class Student {
     private String name;
