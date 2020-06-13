@@ -16,7 +16,7 @@ package day20200602;
 public class Practice01 {
     public static void main(String[] args) {
         int x = f(6);
-        System.out.println("f(5)="+x);
+        System.out.println("f(6)="+x);
     }
 
     public static int f(int n) {
