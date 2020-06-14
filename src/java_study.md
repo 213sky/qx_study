@@ -4,7 +4,8 @@ String a = “” refers to an empty string while String a = null assigns a to n
 1) a=null，a.toString()结果
 2) (a="")与(a=null)相等吗
 ### 解答-问题1
-
+1）error
+2）不相等，""是空的字符串，empety String,null是没有值的none value
 
 # == , equals()
 == is a comparison operator while .equals() is a method. == is for referencing comparison but .equals() is for content comparison.
@@ -14,6 +15,7 @@ School a = new School();
 School b = new School();
 a == b 结果
 ### 解答-问题1
+False
 
 # final finally finalize
 final: a keyword can be used with class, method and variable. Such that a final class cannot be instantiated, a final method cannot be overridden, and a final variable cannot be changed(reassigned).
@@ -45,6 +47,13 @@ Member of Java interface are public by default.
 1) 定义一个抽象类，3个属性，3个abstract方法，3个普通方法
 2) 定义一个接口类 
 ### 解答-问题1
+public abstract class MyClass{
+//普通方法
+  public void f1(){
+    System.out.println("this is a non_abstrract function")
+    }
+  public abstract void print（”this is an abstract function");
+}
 
 
 
