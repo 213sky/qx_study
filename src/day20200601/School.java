@@ -11,6 +11,7 @@ package day20200601;
  * 所有名称都要遵循-驼峰规则
  * 类名-大写开始
  * 方法名-小写开始
+ https://www.w3schools.com/java/java_methods.asp
  */
 public class School {
     /**
